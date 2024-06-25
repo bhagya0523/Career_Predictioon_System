@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dream Career</title>
+    <link rel="stylesheet" href="/my_flask_app/static/styles.css">
+</head>
+<body>
+  
+    
+    <!-- {% include "navbar.html" %} -->
+    <header>
+        <nav class="navbar">
+            <div class="logo-container">
+                <a href="#"><img src="/my_flask_app/static/images/logo1.png" alt="Logo" class="logo"></a>
+            </div>
+            <div class="nav-links">
+                <ul>
+                    <li><a href="/my_flask_app/templates/index.html">Home</a></li>
+                    <li><a href="/my_flask_app/templates/about.html">About</a></li>
+                    <!-- Add more links as needed -->
+                    <li><a href="#">Services</a></li>
+                    <li><a href="/my_flask_app/templates/contact.html">Contact</a></li>
+                </ul>
+            </div>
+            <div class="sign-in-container">
+                <a href="/my_flask_app/templates/login.html" class="sign-in">Sign In</a>
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>Discover Your <br>Ideal Career Path</h1>
+            <p>Discovering your true self is the first step towards <br> unlocking your full potential</p>
+          <a href="/my_flask_app/templates/before_test.html"> <button>Take Test</button></a> 
+        </div>
+        <div class="hero-image">
+            <img src="/my_flask_app/static/images/hero.jpg" alt="Hero Image">
+        </div>
+    </section>
+
+    <section class="why-test">
+        <h2>Why Would I Take This Test?</h2>
+        <br><br>
+        <div class="reasons">
+            <div class="reason">
+                <img src="/my_flask_app/static/images/2.jpg" alt="Discover My Passions">
+                <p>Discover My Passions</p>
+            </div>
+            <div class="reason">
+                <img src="/my_flask_app/static/images/5.jpg" alt="Achieve My Career With Right Way">
+                <p>Achieve My Career With Right Way</p>
+            </div>
+            <div class="reason">
+                <img src="/my_flask_app/static/images/4.jpg" alt="Identify My Skills To Choose Right Career">
+                <p>Identify My Skills To Choose Right Career</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="partners">
+        <h2>Our Partners & Institutes</h2>
+        <div class="slider">
+            <div class="slides">
+                <img src="/my_flask_app/static/images/sliate.jpg" alt="Partner 1">
+                <img src="/my_flask_app/static/images/SRi lanka.jpg" alt="Partner 2">
+                <img src="/my_flask_app/static/images/TVEC.jpg" alt="Partner 3">
+                <img src="/my_flask_app/static/images/VTA.png" alt="Partner 4">
+                <img src="/my_flask_app/static/images/Germen.jpg" alt="Partner 5">
+                <img src="/my_flask_app/static/images/nibm.jpeg" alt="Partner 6">
+                <img src="/my_flask_app/static/images/wayamba.jpeg" alt="Partner 7">
+                <img src="/my_flask_app/static/images/sliate.jpg" alt="Partner 1">
+                <img src="/my_flask_app/static/images/SRi lanka.jpg" alt="Partner 2">
+                <img src="/my_flask_app/static/images/TVEC.jpg" alt="Partner 3">
+                <img src="/my_flask_app/static/images/VTA.png" alt="Partner 4">
+                <img src="/my_flask_app/static/images/Germen.jpg" alt="Partner 5">
+                <img src="/my_flask_app/static/images/nibm.jpeg" alt="Partner 6">
+                <img src="/my_flask_app/static/images/wayamba.jpeg" alt="Partner 7">
+                
+            </div>
+        </div>
+        <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+        <button class="next" onclick="moveSlide(1)">&#10095;</button>
+    </section>
+    
+    
+    <!-- Success Stories -->
+
+    <section class="success-stories">
+        <h2>Success Stories</h2>
+        <div class="stories">
+            <div class="story">
+                <img src="/my_flask_app/static/images/s1.jpg" alt="Success Story 1">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, vivamus vestibulum vehicula ligula, eget fermentum elit nunc vitae." - Lorem Ipsum</p>
+            </div>
+    
+            <div class="story">
+                <img src="/my_flask_app/static/images/s2.jpg" alt="Success Story 2">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, vivamus vestibulum vehicula ligula, eget fermentum elit nunc vitae." - Lorem Ipsum</p>
+            </div>
+    
+            <div class="story">
+                <img src="/my_flask_app/static/images/s3.jpg" alt="Success Story 3">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, vivamus vestibulum vehicula ligula, eget fermentum elit nunc vitae." - Lorem Ipsum</p>
+            </div>
+    
+            <div class="story">
+                <img src="/my_flask_app/static/images/s4.jpg" alt="Success Story 4">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, vivamus vestibulum vehicula ligula, eget fermentum elit nunc vitae." - Lorem Ipsum</p>
+            </div>
+    
+            <div class="story">
+                <img src="/my_flask_app/static/images/s5.jpg" alt="Success Story 5">
+                <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, vivamus vestibulum vehicula ligula, eget fermentum elit nunc vitae." - Lorem Ipsum</p>
+            </div>
+        </div>
+    </section>
+    
+   
+ 
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-links">
+                <a href="#">Join With Us</a>
+                <a href="#">About Us</a>
+                <a href="#">Contact Us</a>
+                <a href="#">Our Team</a>
+                <a href="#">Privacy Notice</a>
+                <a href="#">Terms</a>
+                <a href="#">Services</a>
+            </div>
+            <div class="footer-social">
+                <a href="#"><img src="/my_flask_app/static/images/fb.png" alt="Facebook"></a>
+                <a href="#"><img src="/my_flask_app/static/images/ins.png" alt="Instagram"></a>
+                <a href="#"><img src="/my_flask_app/static/images/X.png" alt="Twitter"></a>
+                <a href="#"><img src="/my_flask_app/static/images/yt.png" alt="YouTube"></a>
+            </div>
+        </div>
+        <p>&copy; 2024 Dream Career Team. All Rights Reserved.</p>
+    </footer>
+    
+</body>
+
+</html>
+
+
+
+
+
+ <script>
+
+    // Image Slider for Partners
+
+document.addEventListener("DOMContentLoaded", function() {
+    const slides = document.querySelector('.slides');
+    const slideImages = document.querySelectorAll('.slides img');
+    const totalSlides = slideImages.length;
+    let currentSlide = 0;
+
+    // Set initial position
+    slides.style.transform = `translateX(0px)`;
+
+    function updateSlidePosition() {
+        slides.style.transform = `translateX(-${currentSlide * slideImages[0].offsetWidth}px)`;
+    }
+
+    function moveSlide(step) {
+        slides.style.transition = 'transform 0.5s ease';
+        currentSlide = (currentSlide + step + totalSlides) % totalSlides; // Loop the slides
+        updateSlidePosition();
+    }
+
+    function autoSlide() {
+        moveSlide(1);
+    }
+
+    // Auto slide every 2 seconds
+    const autoSlideInterval = setInterval(autoSlide, 2000);
+
+    // Manual slide controls
+    document.querySelector('.prev').addEventListener('click', () => {
+        clearInterval(autoSlideInterval);
+        moveSlide(-1);
+    });
+    document.querySelector('.next').addEventListener('click', () => {
+        clearInterval(autoSlideInterval);
+        moveSlide(1);
+    });
+
+    window.addEventListener('resize', updateSlidePosition); // Adjust position on resize
+});
+
+
+
+
+// Success Stories Image slider
+
+document.addEventListener("DOMContentLoaded", function() {
+    const stories = document.querySelector('.stories');
+    const storyWidth = document.querySelector('.story').offsetWidth;
+    let currentPosition = 0;
+
+    function autoSlide() {
+        currentPosition += storyWidth + 20; // 20px gap between cards
+        if (currentPosition > stories.scrollWidth - stories.clientWidth) {
+            currentPosition = 0;
+        }
+        stories.scrollTo({
+            left: currentPosition,
+            behavior: 'smooth'
+        });
+    }
+
+    setInterval(autoSlide, 3000); // Adjust interval as needed
+});
+
+
+</script>
+
+
+
